@@ -1,0 +1,74 @@
+/* Globalne ustawienia */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styl formularza */
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+}
+
+/* Styl dla etykiet formularza */
+label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Styl dla pól tekstowych (input i email) */
+input[type="text"],
+input[type="email"] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Efekt focus na polach tekstowych */
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #6c5ce7;
+    outline: none;
+}
+
+/* Styl dla przycisku wysyłania */
+input[type="submit"] {
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efekt hover dla przycisku wysyłania */
+input[type="submit"]:hover {
+    background-color: #5a4bd8;
+}
+
+/* Styl dla odpowiedzi */
+#odpowiedz {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+}
